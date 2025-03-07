@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicle of Cloth | Woven Legends</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,300&f[]=clash-display@400,500,600&f[]=cabinet-grotesk@400,500,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="parallax-layer" style="z-index: -3; background: url('https://raw.githubusercontent.com/pattern-library/pattern-library/main/patterns/grid-light.png') repeat;"></div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop>
+            <source src="https://videos.pexels.com/video-files/2121158/2121158-hd_1920_1080_24fps.mp4" type="video/mp4">
+        </video>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#collections">Our Products</a></li>
+                <li><a href="#credits">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1 class="neon-text">Chronicle of Cloth</h1>
+            <p class="tagline">Woven Legends</p>
+            <div class="luxury-divider"></div>
+            <p class="location">Est. 2015 • Bengaluru, India</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section dark-section" id="about">
+        <div class="section-content">
+            <h2>Our Tapestry of Tradition</h2>
+            <div class="about-grid">
+                <p>Since 2015, Chronicle of Cloth has been dedicated to preserving the ancient art of textile weaving. Based in Bengaluru, India, we blend traditional craftsmanship with modern elegance, creating timeless pieces that tell stories of heritage and culture.</p>
+                
+                <div class="luxury-divider"></div>
+                
+                <div class="about-columns">
+                    <div class="about-column">
+                        <h3>Our Heritage</h3>
+                        <p>Founded by textile enthusiasts with deep roots in India's weaving communities, Chronicle of Cloth began as a small workshop collaborating with five master weavers. Today, we partner with over 200 artisans across Karnataka, Tamil Nadu, and West Bengal, preserving techniques that date back centuries.</p>
+                    </div>
+                    
+                    <div class="about-column">
+                        <h3>Our Mission</h3>
+                        <p>We are committed to safeguarding India's textile heritage while creating sustainable livelihoods for rural artisans. Each piece in our collection represents hours of meticulous handwork, using techniques passed down through generations. We believe in fair trade practices and environmentally conscious production methods.</p>
+                    </div>
+                    
+                    <div class="about-column">
+                        <h3>Our Craft</h3>
+                        <p>Our artisans specialize in traditional techniques including ikat, jamdani, and kantha embroidery. We source natural fibers and dyes, honoring ancient wisdom while embracing innovation. Every thread tells a story—of heritage, of resilience, of beauty. Our garments bridge the gap between timeless tradition and contemporary design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="section" id="collections">
+        <div class="section-content">
+            <h2>Sacred Textiles</h2>
+            <div class="collection-grid">
+                <div class="collection-card">
+                    <div class="collection-image" style="background-image: url('https://images.pexels.com/photos/12814967/pexels-photo-12814967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" role="img" aria-label="Kanchipuram Heritage Saree"></div>
+                    <div class="collection-content">
+                        <h3>Kanchipuram Heritage</h3>
+                        <p>Hand-woven silk saree with traditional temple borders</p>
+                        <div class="collection-price">₹24,999</div>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="collection-image" style="background-image: url('https://images.pexels.com/photos/10679171/pexels-photo-10679171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" role="img" aria-label="Banarasi Dreams Saree"></div>
+                    <div class="collection-content">
+                        <h3>Banarasi Dreams</h3>
+                        <p>Pure silk with intricate zari work</p>
+                        <div class="collection-price">₹18,499</div>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="collection-image" style="background-image: url('https://images.pexels.com/photos/5755160/pexels-photo-5755160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" role="img" aria-label="Ajrakh Collection"></div>
+                    <div class="collection-content">
+                        <h3>Ajrakh Collection</h3>
+                        <p>Hand-block printed cotton with natural dyes</p>
+                        <div class="collection-price">₹9,999</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section dark-section" id="credits">
+        <div class="section-content">
+            <h2>Voices of Appreciation</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>"The Kanchipuram Heritage saree I purchased is simply exquisite. The craftsmanship is unparalleled, and the silk feels divine against the skin. It's become my most treasured possession."</p>
+                        <div class="testimonial-author">- Priya Sharma, Delhi</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>"Chronicle of Cloth's attention to detail is remarkable. Each thread in my Banarasi Dreams saree tells a story of tradition and excellence. I've received countless compliments."</p>
+                        <div class="testimonial-author">- Ananya Patel, Mumbai</div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p>"The Ajrakh Collection pieces are not just garments; they're wearable art. The natural dyes create colors that are both vibrant and soothing. Truly a sustainable fashion choice."</p>
+                        <div class="testimonial-author">- Rajiv Mehta, Jaipur</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section dark-section" id="contact">
+        <div class="section-content">
+            <h2>Weave With Us</h2>
+            <div class="contact-grid">
+                <div class="contact-image" style="background-image: url('https://images.pexels.com/photos/6192554/pexels-photo-6192554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" role="img" aria-label="Artisan weaving traditional textile"></div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Chronicle of Cloth. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
